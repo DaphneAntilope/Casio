@@ -1,0 +1,133 @@
+:root {
+  --casio-green: #006241;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/fond_2.jpg);
+}
+
+/* ----------HEADER---------- */
+.site-header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#logo_casio {
+  width: 10%;
+  height: auto;
+  max-height: 60px;
+}
+
+.site-header nav {
+  left: -8%;
+  position: relative;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  text-transform: uppercase;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+#search-bar{
+  width: 15%;
+  height: 20%;
+  border-bottom: solid;
+  border: none;
+  border-bottom: solid;
+}
+
+#mon_panier {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#mon_panier input{
+  border: none;
+  background-color: transparent;
+  font-family: Helvetica;
+  text-transform: capitalize;
+}
+
+/* ----------Bloc central---------- */
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+#entete{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+  text-align: right;
+  color: white;
+}
+
+.liste_produits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+/* ----------Carte produit--------- */
+.carte_produit {
+  width: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.carte_produit img {
+  width: 100%;
+  height: auto;
+}
+
+.contenu_carte {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contenu_carte h2 {
+  color: var(--casio-green);
+  margin: 0 0 10px;
+}
+
+.contenu_carte button {
+  background-color: var(--casio-green);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contenu_carte button:hover {
+  background-color: #004d33;
+}

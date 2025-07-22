@@ -1,0 +1,91 @@
+:root {
+  --casio-green: #006241;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#logo_casio {
+  width: 10%;
+  height: auto;
+  max-height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.liste_produits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.carte_produit {
+  width: 20%;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.carte_produit img {
+  width: 100%;
+  height: auto;
+}
+
+.contenu_carte {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contenu_carte h2 {
+  color: var(--casio-green);
+  margin: 0 0 10px;
+}
+
+.contenu_carte button {
+  background-color: var(--casio-green);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contenu_carte button:hover {
+  background-color: #004d33;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Casio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=local_mall,menu" />
+    </head>
+
+    <body>
+        <header class="site-header">
+            <img src="..\images\casio_logo.png" alt="" id="logo_casio">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Timeless</a></li>
+                    <li><a href="#">Edifice</a></li>
+                    <li><a href="#">G-Shock</a></li>
+                </ul>
+            </nav>
+
+            <input type="search" name="search" id="search-bar" placeholder="Rechercher">
+
+            <div id="mon_panier">
+                <span class="material-symbols-outlined">local_mall</span>
+                <input type="button" value="MON PANIER">
+            </div>
+
+            <div id="menu_deroulant">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </header>
+
+        <main class="container">
+
+            <section id="entete">
+                <h1>Défiez le temps avec style</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sit nesciunt iure dicta. Nemo ducimus, aliquid eos.</p>
+                <a href="#">Découvrir la nouvelle collection</a>
+            </section>
+
+
+            <section class="carte_produit">
+                <img src="..\images\les_montres\un.avif" alt="Frappuccino">
+                
+                <div class="contenu_carte">
+                    <h2>MTP-1302PGC-3AV</h2>
+                    <label for="couleur">couleur</label>
+                        <select id="couleur">
+                            <option>Tall</option>
+                            <option>Grande</option>
+                            <option>Venti</option>
+                        </select><br>
+                    <label for="taille">taille</label>
+                        <select id="taille">
+                            <option>Tall</option>
+                            <option>Grande</option>
+                            <option>Venti</option>
+                        </select><br>
+                    <p>Prix : </p><br>
+                    <button>Ajouter au panier</button>
+                </div>
+            </section>
+        </main>
+
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="pop_up_confirm.js"></script>
+
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="menu_cote.js"></script>
+
+    </body>
+</html>
