@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "MTP-1302PGC-3AV",
+    "price": 79.9,
+    "image": "public/images/les_montres/un.avif",
+    "colors": ["Or", "Argent", "Noir"],
+    "sizes": ["Petit", "Moyen", "Grand"]
+  },
+  {
+    "id": 2,
+    "name": "G-Shock GA-2100-1A1",
+    "price": 99.9,
+    "image": "/images/les_montres/deux.avif",
+    "colors": ["Noir mat", "Rouge", "Bleu"],
+    "sizes": ["Standard"]
+  },
+  {
+    "id": 3,
+    "name": "Edifice EFV-540D-1A2",
+    "price": 129.9,
+    "image": "/images/les_montres/trois.avif",
+    "colors": ["Argent", "Bleu nuit"],
+    "sizes": ["Unique"]
+  }
+]
